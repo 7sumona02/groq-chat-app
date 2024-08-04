@@ -12,7 +12,7 @@ import os
 
 load_dotenv()
 
-groq_api_key = os.getenv['GROQ_API_KEY']
+GROQ_API_KEY='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'
 
 def main():
 
@@ -40,7 +40,7 @@ def main():
 
     # Initialize Groq Langchain chat object and conversation
     groq_chat = ChatGroq(
-            groq_api_key=groq_api_key, 
+            groq_api_key=GROQ_API_KEY, 
             model_name=model
     )
 
