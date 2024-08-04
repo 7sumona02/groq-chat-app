@@ -1,10 +1,10 @@
 import streamlit as st
 import os
-from groq import Groq 
+# from groq import Groq 
 from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationBufferMemory
 from langchain_groq import ChatGroq
-from langchain.prompts import PromptTemplate
+# from langchain.prompts import PromptTemplate
 from dotenv import load_dotenv
 
 # Load environment variables
